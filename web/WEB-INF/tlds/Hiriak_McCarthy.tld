@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>hiriak_mccarthy</short-name>
+  <uri>/WEB-INF/tlds/Hiriak_McCarthy</uri>
+ 
+ <tag>
+        <name>currencyFormat</name>
+        <tag-class>mccarthy.tags.currencyFormat</tag-class>
+        <info>Applies currency formatting to provide dollar signs, commas, and 
+        2 decimal place accuracy for the investment amount and future
+        value</info>
+    </tag>
+</taglib>
